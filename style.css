@@ -1,0 +1,98 @@
+/* navigation Bar  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    background-color: black;
+    
+}
+/* logo word  */
+#logo,h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    margin-left: 15px;
+    font-weight: lighter;
+}
+/*menu*/
+.menu,ul{
+    display: flex;
+
+}
+menu,li{
+ list-style: none;
+ margin: 0% 50px;
+}
+.menu,ul,a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+/* header main */
+   /* section About-us  */
+#about{
+    background-color: antiquewhite;
+    font-family: 'Righteous', cursive;
+}
+section,#about{
+    display: flex;
+    align-items: center;
+    
+}
+.about-right{
+    text-align: center;
+    margin-right: 0%;
+ }
+ .about-right,p{
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
+ .about-left, img{
+    width: 100%;
+    height: 100%; 
+    margin: 0%;
+}
+/* WORK Section */
+#work{
+    background-color: antiquewhite;
+    font-family: 'Righteous', cursive;
+}
+section,#work{
+    display: flex;
+    align-items: flex-end;
+}
+.work-left{
+    text-align: center;
+}
+/* form style  */
+     /* espresso input  */
+         .espresso-r{display: flex;align-items: center;}
+         .espresso-r,.Eimg{width: 22%;}
+     /* americano input  */
+         .americano-r{display: flex;align-items: center;}
+         .americano-r,.Aimg{width: 25%;}
+     /* Latte input  */
+         .latte-r{display: flex;align-items: center;}
+         .latte-r, .Rimg{width: 25%;}
+/* RESUME Section  */
+         #resume{background-color: antiquewhite;}
+         .resume-center{display:block;
+                 margin: 5% 30%; 
+                 text-align: center; 
+                 font-family: 'Righteous', cursive;  }
+         hr{background-color: antiquewhite;}
+/* CONTACT Section  */
+         #contact{background-color: antiquewhite;}   
+         #contact,.contact-block{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;     
+         }
+         form{display: flex; 
+         }
+         .facebook{width: 2%;}
+
+
